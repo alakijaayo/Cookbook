@@ -8,7 +8,7 @@ import { RecipeListComponent } from './components/recipes/recipe-list/recipe-lis
 import { RecipesComponent } from './components/recipes/recipes.component';
 import { RecipeItemComponent } from './components/recipes/recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './components/recipes/recipe-detail/recipe-detail.component';
-import { ShoppingListComponent } from './components/shopping-list/shopping-list.component';
+import { ShoppingListComponent} from './components/shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
 
 
