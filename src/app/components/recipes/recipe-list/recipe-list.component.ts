@@ -8,7 +8,8 @@ import { Recipe } from "../recipes.module";
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A test recipe', "This is simply a test", 'https://en.wikipedia.org/wiki/Lasagne#/media/File:Lasagne_-_stonesoup.jpg')
+    new Recipe('A test recipe', "This is simply a test", 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
+    new Recipe('A test recipe', "This is simply a test", 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
   ];
 
   constructor() { }
