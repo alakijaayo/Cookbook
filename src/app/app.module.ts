@@ -13,6 +13,7 @@ import { ShoppingListComponent} from './components/shopping-list/shopping-list.c
 import { ShoppingEditComponent } from './components/shopping-list/shopping-edit/shopping-edit.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './components/shopping-list/shopping-list.service';
+import { RecipeStartComponent } from './components/recipes/recipe-start/recipe-start.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ShoppingListService } from './components/shopping-list/shopping-list.se
     RecipeDetailComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    DropdownDirective
+    DropdownDirective,
+    RecipeStartComponent
   ],
   imports: [
     BrowserModule,
